@@ -10,8 +10,10 @@ A recipie page but soon to be a cokbook website.
         <meta charset="utf-8">
     </head>
     <body>
+        <center>
         <h1>C for Chef CookBook</h1>
         <p>This is a CookBook that is filled with easy-go-recipies for beginners in cooking who are welcoming themselves into the world of flavours and variety of tastebuds.</p>
+        </center>
         <h2>Simple Chocolate cake</h2>
         <p>This is a very basic recipie of a Chocolate cake if you are craving for one but does not aim for anything fancy!</p>
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje9AebtKq_2enZOTEEsQwIXVzyorRGnvvwfpIcPISxkmtUYO34PBgONLGrkHnCtgdTHp7RyEio81pA8M8qat_3sZgitXvvanNbPT5ZElWAmWpcQEUfMlalb5MhfXv1gefAxCjVF6r_90GdNxX6QucuzdyahyDxEUfRYITGSd1KkFkdfQFMyJsUwbj6-w18/s1800/Chocolate%20Cake%20simple.jpeg"
