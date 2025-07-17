@@ -54,5 +54,48 @@ A recipie page but soon to be a cokbook website.
             <li>After 30 mins, instert a fork or toothpick at the centre to see if it comes out clean. If it is clean it means cake is cooked , if not keep it for 5 or 10 mins more.</li>
             <li>Cool for some time and enjoy with some hot coffee , whipping cream or any sweet sauces of youur choice.</li>
         </ol>
+         <!--creating a form-->
+        <h2>Feedback</h2>
+        <p>Be Sure to leave a Feedback after you cook.</p>
+        <form>
+            <div class="form-group">
+                <!--this is the division for name input and div is used for easy understanding , layout ans styling-->
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" placeholder="Enter your name here">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="user-email" placeholder="Enter your email address here">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Recipe Rating</label>
+                <label for="five">5</label>
+                <input id="five" type="radio" name="recipe_rating">
+                <label for="four">4</label>
+                <input id="four" type="radio" name="recipe_rating">
+                <label for="three">3</label>
+                <input id="three" type="radio" name="recipe_rating">
+                <label for="two">2</label>
+                <input id="two" type="radio" name="recipe_rating">
+                <label for="one">1</label>
+                <input id="one" type="radio" name="recipe_rating">
+            </div><br>
+            <div class="form-group">
+                <label>what did you like the most?</label>
+                <label for="easy">Easiness</label>
+                <input id="easy" type="checkbox" name="easy">
+                <label for="texture">texture</label>
+                <input id="texture" type="checkbox" name="texture">
+            </div><br>
+            <div class="form-group">
+                <label>Tell Us More</label>
+                <textarea id="comments" name="comments" placeholder="Enter your comments here feel free to open up" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" name="submit">Submit</button>
+            </div>
+        </form>
     </body>
 </html>
